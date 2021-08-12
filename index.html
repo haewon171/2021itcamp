@@ -6,12 +6,12 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="icon2.ico">
+<link rel="shortcut icon" href="icon.ico">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
     height: 100%;
-    color: #777;
+    color: rgba(45, 148, 185, 0.856);
     line-height: 1.8;
 }
 
@@ -26,13 +26,13 @@ body, html {
                                                           /*2. 이미지 수정(가로 이미지 사용) */
 
 .bgimg-1 {
-    background-image: url("https://i.ytimg.com/vi/9n1DkkDAkvY/maxresdefault.jpg");
+    background-image: url("애옹.jpg");
     min-height: 100%;
 }
 
                                                          /*2. 이미지 수정(가로 이미지 사용) */
 .bgimg-2 {
-    background-image: url("https://w.namu.la/s/b1b9f196fd46909602bce8602978eb5d33b7a0a24a5161b630862c17265b306b64d651986fd7913cce1314c2c55bc305c1daff4aae66cf47456681a9d27d85db0600ba778f37a3485d65cad2765bcc72575d0901ea77965904ce0ae9796a0fda");
+    background-image: url("너구리 너구리.jpg");
     min-height: 400px;
 }
 
@@ -62,10 +62,10 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>                                                               <!-- 3. 메뉴수정 -->
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#link" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> LINK</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+    <a href="#보호소 소개" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-building"></i> 보호소 소개</a>
+    <a href="#무료분양" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paw"></i> 무료분양</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-phone"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -73,8 +73,8 @@ body, html {
 
   <!-- Navbar on small screens -->                                     <!-- 3. 메뉴수정 -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#link" class="w3-bar-item w3-button" onclick="toggleFunction()">LINK</a>
+    <a href="#보호소 소개" class="w3-bar-item w3-button" onclick="toggleFunction()">보호소 소개</a>
+    <a href="#무료분양" class="w3-bar-item w3-button" onclick="toggleFunction()">무료분양</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -85,68 +85,70 @@ body, html {
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
-      보더로운 <span class="w3-hide-small">생활</span> 하이 왕자님</span>
+      Abandoned Dog <span class="w3-hide-small">Protection</span> Center </span>
   </div>
 </div>
 
 <!-- Container (About Section) -->                                     <!-- 5. 프로필 수정 -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>Nice to meet you</em></p>
+<div class="w3-content w3-container w3-padding-64" id="보호소 소개">
+  <h3 class="w3-center">보호소 소개</h3>
+  <p class="w3-center"><em>우리 보호소는 무료분양을 권장합니다</em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>하이</b></p><br><!-- 6. 프로필 이미지 -->
-      <img src="https://i.ytimg.com/vi/2oaGrBW5jxo/maxresdefault.jpg"
+      <p><b><i class="fa fa-building w3-margin-right"></i></b></p><br><!-- 6. 프로필 이미지 -->
+      <img src=""
       class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
                                                                        <!-- 7. 자기소개  -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-        <p>제 이름은 하이 입니다. </p>
-        <p>저는 보더로운 생활 유튜브에서 </p>
-        <p>귀여운 막내 왕자님을 담당하고 있어요</p>
-        <p>저의 시그니처 표정은 ㅇㅅㅇ이에요!</p>
+        <p>보호소 시설</p>
+        <p>보호소는 보호소와 카페 미용샵을 병행으로 하는 보호소 입니다</p>
+        <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:60px">보호소</button></a>
+        
+        <p>cafe & beauty shop</p>
+        <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:60px"><i class="fa fa-coffee"></i> 카페 <i class="fa fa-coffee"></i></button></a>
+        <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:60px"><i class="fa fa-cut"></i> 미용샵 <i class="fa fa-cut"></i></button></a>
     </div>
   </div>
                                                                        <!-- 8. 그래프 수정 -->
-  <p class="w3-large w3-center w3-padding-16">My favorite:</p>
-  <p class="w3-wide">Photography</p>
+  <p class="w3-large w3-center w3-padding-16">보호소 만족도</p>
+  <p class="w3-wide">시설</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:98.7%">98.7%</div>
   </div>
-  <p class="w3-wide">Computer</p>
+  <p class="w3-wide">아이들 상태</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
   </div>
-  <p class="w3-wide">Conversation</p>
+  <p class="w3-wide">애견 & 애묘 용품</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:94.5%">94.5%</div>
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">Link</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">무료분양</span>
   </div>
 </div>
 
-<!-- Container (link Section) -->
+<!-- Container (SIZE Section) -->
                                                                         <!-- 9. 강좌 소개 -->
-<div class="w3-content w3-container w3-padding-64" id="link">
-  <h3 class="w3-center">LINK </h3>
-  <p class="w3-center"><em>링크<br> </em></p><br>
+<div class="w3-content w3-container w3-padding-64" id="무료분양">
+  <h3 class="w3-center">무료분양</h3>
+  <p class="w3-center"><em>유기견 & 유기묘<br> </em></p><br>
 
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <a href="https://hackertyper.net/" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">소프트웨어과</button></a>
-    <a href="https://youtu.be/gHQkDjfGsN0" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">웹솔루션과</button></a>
-    <a href="https://www.youtube.com/watch?v=JmywKim-YQA" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">디자인과1</button></a>
-    <a href="https://www.instagram.com/mirim_ddd/?hl=ko" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">디자인과2</button></a>
-    <a href="https://www.e-mirim.hs.kr/main.do" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">미림홈페이지</button></a>
-    <a href="start.txt"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">START</button></a>
+    <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">강아지</button></a>
+    <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">고양이</button></a>
+    <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">애묘 용품</button></a>
+    <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">애견 용품</button></a>
+    <a href="" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">무료 입소 신청</button></a>
   </div>
 
 </div>
@@ -170,8 +172,9 @@ body, html {
 <!-- Container (Contact Section) -->
                                                                                 <!-- 10. 본인 인적사항 수정!!! -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  <h3 class="w3-center">WAY TO COME</h3>
+  <p class="w3-center"><em>
+    Decide carefully when adopting a dog or cat</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -181,19 +184,20 @@ body, html {
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> SEOUL, KR<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone : 전화번호 <br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: 이메일<br>
-        <i class="fa fa-comment fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Kakao Talk : 카카오톡 ID 혹은 인스타<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone : 010-5138-5250 <br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email : haewon_1106@naver.com<br>
+        <i class="fa fa-instagram fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Instagram : haeown_171 <br>
+        <i class="fa fa-calendar fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> reservation :  <br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <p><i class="fa fa-dollar"></i></i> 카페와 미용샵의 모든 수익은 유기견 & 유기묘 케어에 사용됩니다 <i class="fa fa-dollar"></i></p>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-</footer>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-chevron-up w3-margin-right"></i>맨 위로</a>
+</footer>T
 
 <!-- Add Google Maps -->                                                        <!-- 11. 구글맵 수정 부분!!! -->
 <script>
